@@ -6,10 +6,6 @@
 # Last modified: 04-06-2024
 ###############################################################################################
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 import confidentiality_handler as conf
 import streamlit as st
 from config import *
