@@ -29,10 +29,10 @@ st.markdown(
 )
 
 def main():
-    st.write("Is this your first time using the app?")
+    st.write("Been here before?")
 
     col1, col2, col3, col4 = st.columns(4)
-    yes_button = col2.link_button("Yes!", "http://localhost:8501/chat_bot")
+    yes_button = col2.link_button("Yes!", "https://rag-buddy-chatbot.streamlit.app/chat_bot")
     no_button = col3.button("No, this is my first time")
 
     if no_button:
