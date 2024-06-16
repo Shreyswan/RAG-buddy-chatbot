@@ -50,6 +50,7 @@ def main():
                 cfg.PREV_PDF = pdf_file
                 try:
                     rag_bot.pdf_preprocessing.clear()
+                    rag_bot.create_chain.clear()
             
                 except:
                     pass
